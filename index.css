@@ -250,7 +250,7 @@ body{
 
  section h3{
     position: relative; /* Positionner le titre au-dessus de l'image */
-    top: 200px; /*Décaler le titre depuis le haut de l'image (ajustez selon le besoin) */
+    top: 250px; /*Décaler le titre depuis le haut de l'image (ajustez selon le besoin) 200*/
     left: 50%;/* Centrer horizontalement */
     transform: translateX(-50%); /*Ajuster pour centrer précisément */
     color: white; /*Couleur du texte, selon la couleur de l'image */
