@@ -209,7 +209,7 @@ body{
 .nav-wrapper .brand-logo {
     position: absolute;
     top: 1%;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: bold;
     color: #FFFFFF;
     text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5);
