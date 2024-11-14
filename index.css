@@ -1,0 +1,285 @@
+body{
+    height: 100%;
+    margin: 0px;
+    margin-left: 0px;
+    /* background-color:  whitesmoke; */
+    background-color: #021514;
+    
+}
+
+.navbar{
+    background-color: #F7879A;
+    height: 100px;
+    z-index: 100px;
+    top: 1%;   
+
+}
+
+.navbar-brand{
+    font-size: 40px;
+    top: 1%;
+    font-weight: bold;
+    text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+
+
+
+.titre{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 75px;
+    color: white;
+}
+
+
+
+
+.collapse{
+    justify-content: end;
+}
+
+.collapse ul li a button{
+    background-color:  #F7879A ;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    border:#F7879A;
+    text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.bi{
+    font-size: 20px;
+}
+
+
+.liste li{
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+    color: #003366;
+    font-size: 15px;
+    font-weight: bold;   
+    
+}
+.liste li a{
+    text-decoration: none;
+    color: #F7879A;
+    /* text-shadow: 2px 15px 4px black; */
+
+}
+.liste{
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 25px;
+} 
+
+
+#pop1-2 ul li{
+    text-decoration: none;
+}
+
+
+.pop1{
+    margin-top: 100px;
+    padding: auto;
+    display: flex;
+    gap: 30px;
+    border-radius: 80px;   
+}
+
+.pop1 img{
+    margin-left: 20px;
+    box-shadow: 30px 30px 0px rgba(0, 0, 0, 0.5);
+    height: 600px;
+    /* border-radius:  40% 60% 56% 44% / 100% 0% 100% 0%; */   
+}
+
+.Lmt{
+    margin-top: 5px;
+
+}
+
+#titregamme{
+    margin-top: 30px;
+    background-color: #F7879A;
+    color: white;
+    padding-bottom: 10px;
+    text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5);
+
+}  
+
+
+.frth4{
+    margin-top: 75px;
+    position:relative;
+   text-align: center;
+   color: black;
+   text-shadow: 2px 15px 4px black;
+}
+
+.frth5{
+    margin-top: 50px;
+    position:relative;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 15px 4px black;
+    font-weight: bold;
+}
+
+#prod img{
+    width: 100px;
+    /* border: 4px solid yellow; */
+    /* border-radius: 40px; */
+    /* box-shadow: -30px 30px 0px rgba(7, 7, 7, 0.5); */
+
+}
+
+#contener1{
+    margin-top: 75px;
+    display: flex;
+    justify-content:space-around;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    /* justify-content:space-between;
+    gap: 2px; */
+    /* margin-left: 100px; */
+    /* row-gap: 10px; */
+    /* border: 2px solid black */
+}
+
+#contener2{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+
+#contener3{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+/* #titrerocheposay{
+    margin-top: 50px;
+    background-color: #F7879A;
+    color: white;
+    padding-bottom: 10px;
+    text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5);
+} */
+
+#prod button{
+    /* border-radius: 40px; */
+    background-color: #F7879A;
+    color: white;
+    font-weight: bold;
+    border-color: #F7879A;
+
+}
+
+
+
+#pop1-2{
+    /* border: 3px solid black; */
+    margin-top: -50px;
+}
+
+
+@media(max-width:590px){
+
+    #prod img{
+        width: 100px;
+        /* border: 4px solid yellow; */
+
+    }
+}
+
+
+.nav-wrapper .brand-logo {
+    position: absolute;
+    top: 1%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5);
+}
+#logo{
+    text-align: center;
+}
+
+
+.carousel{
+    
+   
+    height: 600px;
+    width: 100%;
+    perspective: 400px;
+    margin-top: 1%;
+}
+
+.carousel .carousel-item{
+    /* height: 600px; */
+    /* box-shadow: 0 0 40px #61dafb, 0 0 40px #61dafb, 0 0 40px #61dafb ; */
+    box-shadow: 0 0 40px #eb769d, 0 0 40px #eb769d, 0 0 40px #eb769d ;
+    /* animation: animate 2s infinite alternate;*/
+    border-radius: 30px;
+}
+
+.carousel .carousel-item img{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+
+}
+
+.container-section{
+    position: relative;
+    margin-top: -175px;
+}
+
+ section h3{
+    position: relative; /* Positionner le titre au-dessus de l'image */
+    top: 200px; /*Décaler le titre depuis le haut de l'image (ajustez selon le besoin) */
+    left: 50%;/* Centrer horizontalement */
+    transform: translateX(-50%); /*Ajuster pour centrer précisément */
+    color: white; /*Couleur du texte, selon la couleur de l'image */
+    font-size: 3em; /*Ajuster la taille du texte selon le besoin */
+    z-index: 10;/* S'assurer que le titre soit au-dessus de l'image */
+    /* text-shadow: 2px 15px 4px  #eca7be ; */
+    text-shadow: 2px 15px 4px  #0f0f0f ;
+
+}
+
+
+section img{
+    width: 100%; /*L'image occupe toute la largeur de son parent */
+    height: 30em;
+} 
+
+footer{
+    /* width: 100%; */
+    height: auto;
+    background-color: #F7879A;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+footer h5{
+    font-weight: bold;
+    color: white;
+}
+
